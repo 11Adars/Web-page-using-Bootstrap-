@@ -11,22 +11,47 @@
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">TCE</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TCE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">Service</a></li>
+              <li><hr class="dropdown-divider"></li>
             </ul>
-        </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+            
+            
+          
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-</nav>
-
+  </nav>
 <!-- Carousel -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -36,15 +61,15 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active" >
-            <img src="https://th.bing.com/th/id/OIP.5hqoFEdh02FpDpG-ZSBfzwHaFY?w=186&h=135&c=7&r=0&o=5&dpr=1.1&pid=1.7" style="height: 32rem; width: 32rem;"   class="d-block w-100" alt="...">
+            <img src="https://th.bing.com/th/id/OIP.5hqoFEdh02FpDpG-ZSBfzwHaFY?w=186&h=135&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="d-block w-100" alt="..." width="500" height="500">
             <h1>Engineering Physics</h1>
         </div>
         <div class="carousel-item">
-            <img src="https://th.bing.com/th/id/OIP.SAd-JiCnUw2vtCc_wDriIQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.1&pid=1.7" style="height: 32rem; width:32rem;" class="d-block w-100" alt="...">
+            <img src="https://th.bing.com/th/id/OIP.SAd-JiCnUw2vtCc_wDriIQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.1&pid=1.7"  class="d-block w-100" alt="..." width="500" height="500">
             <h2>Engineering Mathematics</h2>
         </div>
         <div class="carousel-item">
-            <img src="https://th.bing.com/th/id/OIP.jVDlzNAp6mS7CJyylYJBXQHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" style="height: 32rem; width:32rem;" class="d-block w-100" alt="...">
+            <img src="https://th.bing.com/th/id/OIP.jVDlzNAp6mS7CJyylYJBXQHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" class="d-block w-100" alt="..." width="500" height="500">
             <h3>Engineering Chemistry</h3>
         </div>
     </div>
@@ -64,13 +89,14 @@
         <div class="card">
             <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
                         Student Intern(Inunity)
                     </button>
                 </h5>
             </div>
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
+                    <img src="https://xrlbyewykzwlgdwvhpqa.supabase.co/storage/v1/object/public/the-bucket/thumbnails/organizations/comed.jpg" ><br>
                     In this internship, students are taken on a journey of exploration in the field of Robotics, playing a big role in the future, whether applied in medicine, transportation, manufacturing, space or ocean exploration, by increasing efficiency and improving the overall quality of life. Centred around the concept of building sustainable and impactful products, students are taught to create mesmerising robotic applications and are trained to build robots capable of avoiding obstacles to detecting objects, leaving no stone unturned. The program encourages students to tinker with all the available resources in the labs, ensuring their readiness to build various kinds of applications by the end of the program. With the nuances of building robotic applications, this completely hands-on course introduces students to a variety of physical and digital tools that can aid them in the process of building projects involving both hardware and software
                 </div>
             </div>
@@ -84,7 +110,7 @@
                 </h5>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
+                <div class="card-body"><img src="https://xrlbyewykzwlgdwvhpqa.supabase.co/storage/v1/object/public/the-bucket/thumbnails/organizations/1706939527625_caliper01.png"><br>
                     Innoventure Internship is an early-stage program for Engineering students, spanning four weeks, aimed at building a suitable set of skills and enhancing employability by solving real-world challenges presented by industry partners. Industries can benefit from gaining insights into the talent available within our region.
                 </div>
             </div>
